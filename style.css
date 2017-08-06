@@ -1,0 +1,212 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+    
+}
+
+.container{
+    width: 100%;
+    margin: inherit;
+    overflow: hidden;
+}
+
+.containers{
+    width: 100%;
+    margin: inherit;
+    overflow: inherit;
+}
+
+
+.containerbox{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+#boxes{
+    align-content: center;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 45%;
+    min-height: 350px;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+}
+
+#boxes .box img{
+    width: 100%;
+}
+
+#boxes .box .buttons button:hover{
+    opacity: 0.7;
+    color: #e8491d;
+}
+
+#boxes .box .buttons{
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+#boxes .fbox{
+    float: left;
+    text-align: left;
+    width: 40%;
+    padding: 10px;
+    min-height: 30px;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+}
+
+/*#boxes .fbox2{
+    float: left;
+    align-content: center;
+    align-self: center;
+    text-align: left;
+    width: 40%;
+    padding: 10px;
+    min-height: 30px;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+}*/
+
+article#main-col{
+    float: left;
+    width: 55%;
+}
+
+aside#aimg{
+    float: right;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.paraEn{
+    float: left;
+    text-align: left;
+}
+
+.serviceInfo{
+    float: left;
+    width: 100%;
+}
+
+.serviceIMG{
+    float:right;    
+}
+
+aside#sIMG{
+    float:right;
+    margin-top: 10px;
+}
+
+footer{
+    padding: 1px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #35424a;
+    text-align: center;
+}
+
+
+@media(max-width: 834px){
+    header #branding, header nav, header nav li, #boxes .box, #boxes .fbox{
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+    
+    header{
+        padding-bottom: 20px;
+    }
+    
+#showcase h1{
+    margin-top: 150px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+    
+    #boxes{
+    margin-top: 20px;
+    margin-right: 10%;
+    align-content: center;
+}
+    article#main-col, aside#aimg{
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    article#serviceInfo, .serviceIMG{
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 400px){
+    header #branding, header nav, header nav li, #boxes .box, #boxes .fbox{
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+    
+    header{
+        padding-bottom: 20px;
+    }
+    
+    header .break{
+    display: block;
+}
+    
+#showcase h1{
+    margin-top: 120px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+    
+    #boxes{
+    margin-top: 20px;
+    margin-right: 10%;
+    align-content: center;
+}
+    article#main-col, aside#aimg{
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+    article#serviceInfo, aside#simg{
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+
+
